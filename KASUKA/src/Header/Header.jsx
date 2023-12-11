@@ -2,9 +2,9 @@ import "./Header.css"
 
 export default function Header() {
     return (
-        <header className="header">
-            <div className="header-container">
-                <div className="header-wrapper">
+        <>
+            <div className="header-topbar__wrapper">
+                <div className="header-topbar">
                     <div className="header-logo">
                         <img src="./public/images/logo.png" alt="Logo" className="header-logo__img" />
                         <p className="header-logo__title">KASUKA</p>
@@ -65,6 +65,24 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-        </header>
+
+            <header className="header">
+                <div className="header-content">
+                    <h1 className="header-title">
+                        راه حل های قدرتمند دیجیتال با
+                    </h1>
+
+                    <span className="header-title2">
+                        KASUKA
+                    </span>
+
+                    <p className="header-text">
+                        ما تیمی از بازاریابان با استعداد دیجیتال هستیم
+                    </p>
+                </div>
+            </header>
+        </>
+
+
     )
 }
