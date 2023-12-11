@@ -1,4 +1,5 @@
 import "./Header.css"
+import HeaderBox from "../Header-Box/HeaderBox"
 
 export default function Header() {
     return (
@@ -79,6 +80,15 @@ export default function Header() {
                     <p className="header-text">
                         ما تیمی از بازاریابان با استعداد دیجیتال هستیم
                     </p>
+                    
+                    <div className="header-box__wrapper">
+                        <HeaderBox></HeaderBox>
+                        <HeaderBox></HeaderBox>
+                        <HeaderBox></HeaderBox>
+                        <HeaderBox></HeaderBox>
+                        <HeaderBox></HeaderBox>
+                        <HeaderBox></HeaderBox>
+                    </div>
                 </div>
             </header>
         </>
